@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.relative-box {
+    position: relative;
+    background-color:cyan;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.relative-content {
+    font-weight: bold;
+    color: black;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.float-section {
+    margin-top: 30px;
+}
+
+.float-left {
+    float: left;
+    width: 120px;
+    margin-right: 20px;
+}
+
+.cleared-content {
+    clear: both;
+    padding-top: 10px;
+    color: deeppink;
+    font-weight: bold;
+}
+
+/* Circle layout section */
+.circle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 40px auto;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.center {
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.top {
+    background-color: blue;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.right {
+    background-color: yellow;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.bottom {
+    background-color: red;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.left {
+    background-color: green;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
